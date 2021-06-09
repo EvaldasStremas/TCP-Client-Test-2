@@ -1,0 +1,364 @@
+2021-06-09 17:47:36,742 - test.py - DEBUG - ***STARTED 2MB TXT FILE TO SERVER TEST***
+2021-06-09 17:47:36,743 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,744 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,744 - test.py - DEBUG - Client sent: asdfasdfasdfasdfasdf 
+2021-06-09 17:47:36,745 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,746 - test.py - DEBUG - Connected by ('127.0.0.1', 52226)
+2021-06-09 17:47:36,747 - test.py - DEBUG - Server got: asdfasdfasdfasdfasdf 
+2021-06-09 17:47:36,747 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,747 - test.py - DEBUG - ***STARTED SINGLE STRING TO SERVER TEST***
+2021-06-09 17:47:36,747 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,747 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,747 - test.py - DEBUG - Client sent: hello 
+2021-06-09 17:47:36,748 - test.py - DEBUG - Connected by ('127.0.0.1', 52227)
+2021-06-09 17:47:36,748 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,749 - test.py - DEBUG - Server got: hello 
+2021-06-09 17:47:36,749 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,749 - test.py - DEBUG - ***STARTED SYMBOLS TO SERVER COMPATIBILITY TEST***
+2021-06-09 17:47:36,749 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,749 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,749 - test.py - DEBUG - Client sent:  
+2021-06-09 17:47:36,750 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,750 - test.py - DEBUG - Connected by ('127.0.0.1', 52228)
+2021-06-09 17:47:36,750 - test.py - DEBUG - Server got:  
+2021-06-09 17:47:36,751 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,751 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,751 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,751 - test.py - DEBUG - Client sent: / 
+2021-06-09 17:47:36,752 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,752 - test.py - DEBUG - Connected by ('127.0.0.1', 52229)
+2021-06-09 17:47:36,753 - test.py - DEBUG - Server got: / 
+2021-06-09 17:47:36,753 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,753 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,753 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,754 - test.py - DEBUG - Client sent: * 
+2021-06-09 17:47:36,754 - test.py - DEBUG - Connected by ('127.0.0.1', 52230)
+2021-06-09 17:47:36,754 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,755 - test.py - DEBUG - Server got: * 
+2021-06-09 17:47:36,755 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,756 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,756 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,756 - test.py - DEBUG - Client sent: - 
+2021-06-09 17:47:36,757 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,757 - test.py - DEBUG - Connected by ('127.0.0.1', 52231)
+2021-06-09 17:47:36,758 - test.py - DEBUG - Server got: - 
+2021-06-09 17:47:36,758 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,759 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,759 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,759 - test.py - DEBUG - Client sent: + 
+2021-06-09 17:47:36,760 - test.py - DEBUG - Connected by ('127.0.0.1', 52232)
+2021-06-09 17:47:36,760 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,760 - test.py - DEBUG - Server got: + 
+2021-06-09 17:47:36,761 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,762 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,762 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,762 - test.py - DEBUG - Client sent: = 
+2021-06-09 17:47:36,762 - test.py - DEBUG - Connected by ('127.0.0.1', 52233)
+2021-06-09 17:47:36,763 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,763 - test.py - DEBUG - Server got: = 
+2021-06-09 17:47:36,763 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,764 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,764 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,765 - test.py - DEBUG - Client sent: . 
+2021-06-09 17:47:36,765 - test.py - DEBUG - Connected by ('127.0.0.1', 52234)
+2021-06-09 17:47:36,765 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,767 - test.py - DEBUG - Server got: . 
+2021-06-09 17:47:36,768 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,768 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,768 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,769 - test.py - DEBUG - Client sent: , 
+2021-06-09 17:47:36,769 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,769 - test.py - DEBUG - Connected by ('127.0.0.1', 52235)
+2021-06-09 17:47:36,770 - test.py - DEBUG - Server got: , 
+2021-06-09 17:47:36,771 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,771 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,771 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,771 - test.py - DEBUG - Client sent: : 
+2021-06-09 17:47:36,772 - test.py - DEBUG - Connected by ('127.0.0.1', 52236)
+2021-06-09 17:47:36,772 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,773 - test.py - DEBUG - Server got: : 
+2021-06-09 17:47:36,773 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,773 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,774 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,774 - test.py - DEBUG - Client sent: ; 
+2021-06-09 17:47:36,774 - test.py - DEBUG - Connected by ('127.0.0.1', 52237)
+2021-06-09 17:47:36,774 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,775 - test.py - DEBUG - Server got: ; 
+2021-06-09 17:47:36,775 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,776 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,776 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,776 - test.py - DEBUG - Client sent: [ 
+2021-06-09 17:47:36,777 - test.py - DEBUG - Connected by ('127.0.0.1', 52238)
+2021-06-09 17:47:36,777 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,778 - test.py - DEBUG - Server got: [ 
+2021-06-09 17:47:36,779 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,779 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,780 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,780 - test.py - DEBUG - Client sent: ] 
+2021-06-09 17:47:36,781 - test.py - DEBUG - Connected by ('127.0.0.1', 52239)
+2021-06-09 17:47:36,781 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,782 - test.py - DEBUG - Server got: ] 
+2021-06-09 17:47:36,782 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,783 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,783 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,784 - test.py - DEBUG - Client sent: { 
+2021-06-09 17:47:36,784 - test.py - DEBUG - Connected by ('127.0.0.1', 52240)
+2021-06-09 17:47:36,785 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,785 - test.py - DEBUG - Server got: { 
+2021-06-09 17:47:36,786 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,786 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,786 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,786 - test.py - DEBUG - Client sent: } 
+2021-06-09 17:47:36,787 - test.py - DEBUG - Connected by ('127.0.0.1', 52241)
+2021-06-09 17:47:36,787 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,788 - test.py - DEBUG - Server got: } 
+2021-06-09 17:47:36,788 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,788 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,788 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,789 - test.py - DEBUG - Client sent: ( 
+2021-06-09 17:47:36,789 - test.py - DEBUG - Connected by ('127.0.0.1', 52242)
+2021-06-09 17:47:36,789 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,790 - test.py - DEBUG - Server got: ( 
+2021-06-09 17:47:36,790 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,791 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,791 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,791 - test.py - DEBUG - Client sent: ) 
+2021-06-09 17:47:36,792 - test.py - DEBUG - Connected by ('127.0.0.1', 52243)
+2021-06-09 17:47:36,792 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,793 - test.py - DEBUG - Server got: ) 
+2021-06-09 17:47:36,793 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,794 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,794 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,794 - test.py - DEBUG - Client sent: ! 
+2021-06-09 17:47:36,795 - test.py - DEBUG - Connected by ('127.0.0.1', 52244)
+2021-06-09 17:47:36,796 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,797 - test.py - DEBUG - Server got: ! 
+2021-06-09 17:47:36,797 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,798 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,798 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,798 - test.py - DEBUG - Client sent: @ 
+2021-06-09 17:47:36,799 - test.py - DEBUG - Connected by ('127.0.0.1', 52245)
+2021-06-09 17:47:36,799 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,799 - test.py - DEBUG - Server got: @ 
+2021-06-09 17:47:36,801 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,801 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,802 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,802 - test.py - DEBUG - Client sent: # 
+2021-06-09 17:47:36,802 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,802 - test.py - DEBUG - Connected by ('127.0.0.1', 52246)
+2021-06-09 17:47:36,804 - test.py - DEBUG - Server got: # 
+2021-06-09 17:47:36,804 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,806 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,806 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,806 - test.py - DEBUG - Client sent: $ 
+2021-06-09 17:47:36,807 - test.py - DEBUG - Connected by ('127.0.0.1', 52247)
+2021-06-09 17:47:36,807 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,807 - test.py - DEBUG - Server got: $ 
+2021-06-09 17:47:36,808 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,809 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,809 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,809 - test.py - DEBUG - Client sent: % 
+2021-06-09 17:47:36,809 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,809 - test.py - DEBUG - Connected by ('127.0.0.1', 52248)
+2021-06-09 17:47:36,810 - test.py - DEBUG - Server got: % 
+2021-06-09 17:47:36,811 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,811 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,812 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,812 - test.py - DEBUG - Client sent: ^ 
+2021-06-09 17:47:36,813 - test.py - DEBUG - Connected by ('127.0.0.1', 52249)
+2021-06-09 17:47:36,813 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,815 - test.py - DEBUG - Server got: ^ 
+2021-06-09 17:47:36,815 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 17:47:36,816 - test.py - DEBUG - SERVER STARTED
+2021-06-09 17:47:36,816 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 17:47:36,816 - test.py - DEBUG - Client sent: & 
+2021-06-09 17:47:36,818 - test.py - DEBUG - Connected by ('127.0.0.1', 52250)
+2021-06-09 17:47:36,818 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 17:47:36,819 - test.py - DEBUG - Server got: & 
+2021-06-09 17:47:36,819 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,169 - test.py - DEBUG - ***STARTED 2MB TXT FILE TO SERVER TEST***
+2021-06-09 18:01:43,170 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,171 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,171 - test.py - DEBUG - Client sent: asdfasdfasdfasdfasdf 
+2021-06-09 18:01:43,172 - test.py - DEBUG - Connected by ('127.0.0.1', 49772)
+2021-06-09 18:01:43,172 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,173 - test.py - DEBUG - Server got: asdfasdfasdfasdfasdf 
+2021-06-09 18:01:43,173 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,174 - test.py - DEBUG - ***STARTED SINGLE STRING TO SERVER TEST***
+2021-06-09 18:01:43,174 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,174 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,175 - test.py - DEBUG - Client sent: hello 
+2021-06-09 18:01:43,175 - test.py - DEBUG - Connected by ('127.0.0.1', 49773)
+2021-06-09 18:01:43,176 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,176 - test.py - DEBUG - Server got: hello 
+2021-06-09 18:01:43,177 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,178 - test.py - DEBUG - ***STARTED SYMBOLS TO SERVER COMPATIBILITY TEST***
+2021-06-09 18:01:43,178 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,178 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,178 - test.py - DEBUG - Client sent:  
+2021-06-09 18:01:43,179 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,179 - test.py - DEBUG - Connected by ('127.0.0.1', 49774)
+2021-06-09 18:01:43,180 - test.py - DEBUG - Server got:  
+2021-06-09 18:01:43,180 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,181 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,181 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,182 - test.py - DEBUG - Client sent: / 
+2021-06-09 18:01:43,183 - test.py - DEBUG - Connected by ('127.0.0.1', 49775)
+2021-06-09 18:01:43,183 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,184 - test.py - DEBUG - Server got: / 
+2021-06-09 18:01:43,184 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,185 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,185 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,185 - test.py - DEBUG - Client sent: * 
+2021-06-09 18:01:43,185 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,185 - test.py - DEBUG - Connected by ('127.0.0.1', 49776)
+2021-06-09 18:01:43,186 - test.py - DEBUG - Server got: * 
+2021-06-09 18:01:43,187 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,187 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,187 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,187 - test.py - DEBUG - Client sent: - 
+2021-06-09 18:01:43,188 - test.py - DEBUG - Connected by ('127.0.0.1', 49777)
+2021-06-09 18:01:43,188 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,189 - test.py - DEBUG - Server got: - 
+2021-06-09 18:01:43,189 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,190 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,190 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,190 - test.py - DEBUG - Client sent: + 
+2021-06-09 18:01:43,190 - test.py - DEBUG - Connected by ('127.0.0.1', 49778)
+2021-06-09 18:01:43,190 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,191 - test.py - DEBUG - Server got: + 
+2021-06-09 18:01:43,192 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,192 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,192 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,192 - test.py - DEBUG - Client sent: = 
+2021-06-09 18:01:43,193 - test.py - DEBUG - Connected by ('127.0.0.1', 49779)
+2021-06-09 18:01:43,194 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,194 - test.py - DEBUG - Server got: = 
+2021-06-09 18:01:43,195 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,195 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,195 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,196 - test.py - DEBUG - Client sent: . 
+2021-06-09 18:01:43,196 - test.py - DEBUG - Connected by ('127.0.0.1', 49780)
+2021-06-09 18:01:43,197 - test.py - DEBUG - Server got: . 
+2021-06-09 18:01:43,197 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,197 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,199 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,199 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,200 - test.py - DEBUG - Client sent: , 
+2021-06-09 18:01:43,200 - test.py - DEBUG - Connected by ('127.0.0.1', 49781)
+2021-06-09 18:01:43,200 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,201 - test.py - DEBUG - Server got: , 
+2021-06-09 18:01:43,202 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,202 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,202 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,202 - test.py - DEBUG - Client sent: : 
+2021-06-09 18:01:43,203 - test.py - DEBUG - Connected by ('127.0.0.1', 49782)
+2021-06-09 18:01:43,203 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,204 - test.py - DEBUG - Server got: : 
+2021-06-09 18:01:43,204 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,205 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,205 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,205 - test.py - DEBUG - Client sent: ; 
+2021-06-09 18:01:43,206 - test.py - DEBUG - Connected by ('127.0.0.1', 49783)
+2021-06-09 18:01:43,206 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,207 - test.py - DEBUG - Server got: ; 
+2021-06-09 18:01:43,207 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,208 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,208 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,208 - test.py - DEBUG - Client sent: [ 
+2021-06-09 18:01:43,209 - test.py - DEBUG - Connected by ('127.0.0.1', 49784)
+2021-06-09 18:01:43,209 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,210 - test.py - DEBUG - Server got: [ 
+2021-06-09 18:01:43,211 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,211 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,211 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,212 - test.py - DEBUG - Client sent: ] 
+2021-06-09 18:01:43,212 - test.py - DEBUG - Connected by ('127.0.0.1', 49785)
+2021-06-09 18:01:43,212 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,213 - test.py - DEBUG - Server got: ] 
+2021-06-09 18:01:43,213 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,214 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,214 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,215 - test.py - DEBUG - Client sent: { 
+2021-06-09 18:01:43,216 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,216 - test.py - DEBUG - Connected by ('127.0.0.1', 49786)
+2021-06-09 18:01:43,218 - test.py - DEBUG - Server got: { 
+2021-06-09 18:01:43,218 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,219 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,219 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,219 - test.py - DEBUG - Client sent: } 
+2021-06-09 18:01:43,219 - test.py - DEBUG - Connected by ('127.0.0.1', 49787)
+2021-06-09 18:01:43,219 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,220 - test.py - DEBUG - Server got: } 
+2021-06-09 18:01:43,221 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,221 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,221 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,221 - test.py - DEBUG - Client sent: ( 
+2021-06-09 18:01:43,222 - test.py - DEBUG - Connected by ('127.0.0.1', 49788)
+2021-06-09 18:01:43,222 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,223 - test.py - DEBUG - Server got: ( 
+2021-06-09 18:01:43,223 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,224 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,224 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,224 - test.py - DEBUG - Client sent: ) 
+2021-06-09 18:01:43,224 - test.py - DEBUG - Connected by ('127.0.0.1', 49789)
+2021-06-09 18:01:43,224 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,225 - test.py - DEBUG - Server got: ) 
+2021-06-09 18:01:43,226 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,227 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,227 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,227 - test.py - DEBUG - Client sent: ! 
+2021-06-09 18:01:43,228 - test.py - DEBUG - Connected by ('127.0.0.1', 49790)
+2021-06-09 18:01:43,228 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,229 - test.py - DEBUG - Server got: ! 
+2021-06-09 18:01:43,229 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,230 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,230 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,230 - test.py - DEBUG - Client sent: @ 
+2021-06-09 18:01:43,231 - test.py - DEBUG - Connected by ('127.0.0.1', 49791)
+2021-06-09 18:01:43,231 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,233 - test.py - DEBUG - Server got: @ 
+2021-06-09 18:01:43,233 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,234 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,234 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,234 - test.py - DEBUG - Client sent: # 
+2021-06-09 18:01:43,235 - test.py - DEBUG - Connected by ('127.0.0.1', 49792)
+2021-06-09 18:01:43,235 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,236 - test.py - DEBUG - Server got: # 
+2021-06-09 18:01:43,236 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,237 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,237 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,237 - test.py - DEBUG - Client sent: $ 
+2021-06-09 18:01:43,237 - test.py - DEBUG - Connected by ('127.0.0.1', 49793)
+2021-06-09 18:01:43,237 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,238 - test.py - DEBUG - Server got: $ 
+2021-06-09 18:01:43,239 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,239 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,239 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,239 - test.py - DEBUG - Client sent: % 
+2021-06-09 18:01:43,240 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,240 - test.py - DEBUG - Connected by ('127.0.0.1', 49794)
+2021-06-09 18:01:43,241 - test.py - DEBUG - Server got: % 
+2021-06-09 18:01:43,241 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,242 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,242 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,242 - test.py - DEBUG - Client sent: ^ 
+2021-06-09 18:01:43,244 - test.py - DEBUG - Connected by ('127.0.0.1', 49795)
+2021-06-09 18:01:43,244 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,245 - test.py - DEBUG - Server got: ^ 
+2021-06-09 18:01:43,245 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,245 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,246 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,246 - test.py - DEBUG - Client sent: & 
+2021-06-09 18:01:43,246 - test.py - DEBUG - Connected by ('127.0.0.1', 49796)
+2021-06-09 18:01:43,247 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,248 - test.py - DEBUG - Server got: & 
+2021-06-09 18:01:43,250 - test.py - DEBUG - SERVER CLOSED
+2021-06-09 18:01:43,250 - test.py - DEBUG - ***STARTED 2MB TXT FILE TO SERVER TEST***
+2021-06-09 18:01:43,252 - test.py - DEBUG - SERVER STARTED
+2021-06-09 18:01:43,252 - test.py - DEBUG - CLIENT STARTED
+2021-06-09 18:01:43,252 - test.py - DEBUG - Client sent: asdfasdfasdfasdfasdf 
+2021-06-09 18:01:43,252 - test.py - DEBUG - CLIENT CLOSED
+2021-06-09 18:01:43,253 - test.py - DEBUG - Connected by ('127.0.0.1', 49797)
+2021-06-09 18:01:43,254 - test.py - DEBUG - Server got: asdfasdfasdfasdfasdf 
+2021-06-09 18:01:43,255 - test.py - DEBUG - SERVER CLOSED

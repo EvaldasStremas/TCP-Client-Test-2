@@ -1,3 +1,6 @@
+# python -m unittest test.ServerTestCase
+# python -m unittest test.ServerTestCase2
+
 import socket, threading, unittest, logging, sys
 
 PORT = 7777
@@ -162,8 +165,8 @@ class ServerTestCase2(unittest.TestCase):
     def test_send_2mb_txt_file_to_server(self):
         logging.debug('***STARTED 2MB TXT FILE TO SERVER TEST***')
 
-        f = open("random-text.txt", "r")
-        # f = open("2mb-random-text.txt", "r")
+        # f = open("random-text.txt", "r")
+        f = open("2mb-random-text.txt", "r")
         enter_data = f.read()
         f.close()
 

@@ -1,1 +1,1 @@
-# Python TCP Server/Client communication with tests
+Python TCP Server/Client communication

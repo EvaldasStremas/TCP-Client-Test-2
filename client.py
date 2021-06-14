@@ -1,11 +1,7 @@
-import socket, threading, logging, time
-from debug import debug_setup
+import socket, threading, logging, sys
 
 PORT = 7777
 HOST = '127.0.0.1'
-# sending_data = 'hello'
-
-debug_setup()
  
 class Client(threading.Thread):
 
@@ -20,8 +16,14 @@ class Client(threading.Thread):
         file2 = open("client_input.txt","r")
         sending_data = file2.read()
         
-        client_sock = socket.socket()
-        client_sock.connect((HOST, PORT))
+        try:
+            client_sock = socket.socket()
+            client_sock.connect((HOST, PORT))
+        except:
+            print("Could not make a connection to the server")
+            print("Press enter to quit")
+            sys.exit(0)
+
         logging.debug('CLIENT CONNECTED')
         enter_data_inbytes = bytes(sending_data, 'utf-8')
 

@@ -1,10 +1,7 @@
-import socket, threading, logging, time
-from debug import debug_setup
+import socket, threading, logging
 
 PORT = 7777
 HOST = '127.0.0.1'
-
-debug_setup()
 
 class Server(threading.Thread):
 

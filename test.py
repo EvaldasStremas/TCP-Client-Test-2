@@ -1,18 +1,15 @@
-# python -m unittest test.ServerTestCase
-# python -m unittest test.ServerTestCase2
-
-import unittest, time
-import numpy as np
+import unittest, time, numpy as np
 from server import *
 from client import *
-from debug import debug_setup
+from debug import *
 
 PORT = 7777
 HOST = '127.0.0.1'
 
 debug_setup()
 
-class ServerTestCase(unittest.TestCase):
+
+class FirstTaskTest(unittest.TestCase):
 
     def test_send_hello_string_to_server(self):
         logging.debug('***STARTED *HELLO* STRING TO SERVER TEST***')
@@ -43,7 +40,7 @@ class ServerTestCase(unittest.TestCase):
         self.assertEqual(test_input_text, server_output_text)
 
 
-class ServerTestCase2(unittest.TestCase):
+class AdditionalTests(unittest.TestCase):
 
     def test_send_random_letters_2mb_txt_file_to_server(self):
         logging.debug('***STARTED 2MB TXT FILE TO SERVER COMAPRISON TEST***')
@@ -78,15 +75,15 @@ class ServerTestCase2(unittest.TestCase):
         logging.debug('***STARTED SYMBOLS TO SERVER COMPATIBILITY TEST***')
 
         symbols_array = (['','/', '*', '-','+','=','.',',',':',';','[',']','{','}','(',')',
-        '!','@','#','$','%','^','&','部'])
+        '!','@','#','$','%','^','&'])
+
+        # symbols_array = (['部','★'])
 
         for test_input_text in symbols_array:
 
             file2 = open("client_input.txt","w")
             file2.write(test_input_text)
             file2.close()
-
-            file = open("server_output.txt","r")
 
             server_thread = Server()
             client_thread = Client()
@@ -98,12 +95,14 @@ class ServerTestCase2(unittest.TestCase):
             client_thread.join()
             server_thread.join()
 
+            file = open("server_output.txt","r")
             server_output_text = file.read()
-
             file.close()
 
             self.assertEqual(test_input_text, server_output_text)
 
+
+class ServerPerformaceTests(unittest.TestCase):
 
     def test_performace(self):
         logging.debug('***STARTED PERFORMACE TEST***')
@@ -145,7 +144,30 @@ class ServerTestCase2(unittest.TestCase):
         logging.debug('Minimum value of the array is %s', np.min(result))
 
         self.assertLessEqual(np.max(result), 0.03)
-        
+
+
+class ConnectionTests(unittest.TestCase):
+
+    def test_client_connection_without_server(self):
+        logging.debug('***STARTED CLIENT CONNECTION WITHOUT SERVER TEST***')
+
+        client_thread = Client()
+        client_thread.start()
+        client_thread.join()
+
+    def test_successful_connection_to_server(self):
+        logging.debug('***STARTED SUCCESSFUL CONNECTION TO SERVER TEST***')
+
+        server_thread = Server()
+        client_thread = Client()
+
+        server_thread.start()
+        time.sleep(0.0001)
+        client_thread.start()
+
+        client_thread.join()
+        server_thread.join()
+
 
 if __name__ == '__main__':
     unittest.main()

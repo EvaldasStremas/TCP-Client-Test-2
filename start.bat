@@ -3,37 +3,55 @@ CLS
 :MENU
 ECHO.
 ECHO ...............................................
-ECHO PRESS 1, 2 OR 3 to select your tests, or 4 to EXIT.
+ECHO PRESS 1, 2, 3, 4 or 5 to select your tests, or 6 to EXIT.
 ECHO ...............................................
 ECHO.
 ECHO 1 - Run All Tests
-ECHO 2 - Run First Class Tasks
-ECHO 3 - Run Second Class Tasks
-ECHO 4 - EXIT
+ECHO 2 - Run First Task Test
+ECHO 3 - Run Additional Tests
+ECHO 4 - Run Connection Tests 
+ECHO 5 - Run Performace Tests
+ECHO 6 - EXIT
 ECHO.
-SET /P M=Type 1, 2, 3, or 4 then press ENTER:
-IF %M%==1 GOTO 1TASK
-IF %M%==2 GOTO 2TASK
-IF %M%==3 GOTO 3TASK
-IF %M%==4 GOTO EOF
+SET /P M=Type 1, 2, 3, 4, 5 or 6 then press ENTER:
+IF %M%==1 GOTO ALLTESTS
+IF %M%==2 GOTO FIRSTTASKTEST
+IF %M%==3 GOTO ADDITIONALTESTS
+IF %M%==4 GOTO CONNECTION
+IF %M%==5 GOTO PERFORMANCE
+IF %M%==6 GOTO EOF
 
-:1TASK
+:ALLTESTS
 CLS
 python test.py 
 pause
 CLS
 GOTO MENU
 
-:2TASK
+:FIRSTTASKTEST
 CLS
-python -m unittest test.ServerTestCase
+python -m unittest test.FirstTaskTest
 pause
 CLS
 GOTO MENU
 
-:3TASK
+:ADDITIONALTESTS
 CLS
-python -m unittest test.ServerTestCase2
+python -m unittest test.AdditionalTests
+pause
+CLS
+GOTO MENU
+
+:CONNECTION
+CLS
+python -m unittest test.ConnectionTests
+pause
+CLS
+GOTO MENU
+
+:PERFORMANCE
+CLS
+python -m unittest test.ServerPerformaceTests
 pause
 CLS
 GOTO MENU

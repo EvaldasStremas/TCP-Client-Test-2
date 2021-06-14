@@ -1,3 +1,3 @@
-# TCP-Client-Test-2
+# Python TCP Server/Client
 
 *

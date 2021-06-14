@@ -16,6 +16,7 @@ class Server(threading.Thread):
 
     def run_server(HOST, PORT):
         logging.debug('SERVER STARTED')
+        file = open("server_output.txt","w")
 
         server_sock = socket.socket()
         server_sock.bind((HOST, PORT))
@@ -33,7 +34,9 @@ class Server(threading.Thread):
                 data = conn.recv(3000000)
                 decoded_data = data.decode('UTF-8')
 
-                logging.debug('Server got from client: %s ', decoded_data)
+                logging.debug('Server got from client: %s ', decoded_data[:100])
+                file.write(str(decoded_data))
+                file.close()
 
                 if not data:
                     break

@@ -30,28 +30,28 @@ GOTO MENU
 
 :FIRSTTASKTEST
 CLS
-python -m unittest test.FirstTaskTest
+python -m unittest test.A_FirstTaskTest
 pause
 CLS
 GOTO MENU
 
 :ADDITIONALTESTS
 CLS
-python -m unittest test.AdditionalTests
+python -m unittest test.B_AdditionalTests
 pause
 CLS
 GOTO MENU
 
 :CONNECTION
 CLS
-python -m unittest test.ConnectionTests
+python -m unittest test.D_ConnectionTests
 pause
 CLS
 GOTO MENU
 
 :PERFORMANCE
 CLS
-python -m unittest test.ServerPerformaceTests
+python -m unittest test.C_ServerPerformaceTests
 pause
 CLS
 GOTO MENU

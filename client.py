@@ -20,8 +20,8 @@ class Client(threading.Thread):
             client_sock = socket.socket()
             client_sock.connect((HOST, PORT))
         except:
-            print("Could not make a connection to the server")
-            print("Press enter to quit")
+            logging.debug("Could not make a connection to the server")
+            logging.debug("Press enter to quit")
             sys.exit(0)
 
         logging.debug('CLIENT CONNECTED')

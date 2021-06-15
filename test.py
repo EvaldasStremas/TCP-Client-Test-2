@@ -8,20 +8,8 @@ HOST = '127.0.0.1'
 
 debug_setup()
 
-
-class FirstTaskTest(unittest.TestCase):
-
-    def test_send_hello_string_to_server(self):
-        logging.debug('***STARTED *HELLO* STRING TO SERVER TEST***')
-
-        test_input_text = "Hello"
-
-        file2 = open("client_input.txt","w")
-        file2.write(test_input_text)
-        file2.close()
-
-        file = open("server_output.txt","r")
-
+class BaseTest:
+    def server_and_client_base_code():
         server_thread = Server()
         client_thread = Client()
 
@@ -32,15 +20,31 @@ class FirstTaskTest(unittest.TestCase):
         client_thread.join()
         server_thread.join()
 
+    def write_to_client_input_txt(test_input_text):
+        file2 = open("client_input.txt","w")
+        file2.write(test_input_text)
+        file2.close()
+
+
+class A_FirstTaskTest(unittest.TestCase):
+
+    def test_send_hello_string_to_server(self):
+        logging.debug('***STARTED *HELLO* STRING TO SERVER TEST***')
+
+        test_input_text = "Hello"
+
+        BaseTest.write_to_client_input_txt(test_input_text)
+        file = open("server_output.txt","r")
+        BaseTest.server_and_client_base_code()
+
         server_output_text = file.read()
 
         file.close()
-        file2.close()
 
         self.assertEqual(test_input_text, server_output_text)
 
 
-class AdditionalTests(unittest.TestCase):
+class B_AdditionalTests(unittest.TestCase):
 
     def test_send_random_letters_2mb_txt_file_to_server(self):
         logging.debug('***STARTED 2MB TXT FILE TO SERVER COMAPRISON TEST***')
@@ -49,19 +53,9 @@ class AdditionalTests(unittest.TestCase):
         test_input_text = file3.read()
         file3.close()
 
-        file2 = open("client_input.txt","w")
-        file2.write(str(test_input_text))
-        file2.close()
-
-        server_thread = Server()
-        client_thread = Client()
-
-        server_thread.start()
-        time.sleep(0.0001)
-        client_thread.start()
-
-        client_thread.join()
-        server_thread.join()
+        
+        BaseTest.write_to_client_input_txt(str(test_input_text))
+        BaseTest.server_and_client_base_code()
 
         file = open("server_output.txt","r")
         server_output_text = file.read()
@@ -81,19 +75,8 @@ class AdditionalTests(unittest.TestCase):
 
         for test_input_text in symbols_array:
 
-            file2 = open("client_input.txt","w")
-            file2.write(test_input_text)
-            file2.close()
-
-            server_thread = Server()
-            client_thread = Client()
-
-            server_thread.start()
-            time.sleep(0.0001)
-            client_thread.start()
-
-            client_thread.join()
-            server_thread.join()
+            BaseTest.write_to_client_input_txt(test_input_text)
+            BaseTest.server_and_client_base_code()
 
             file = open("server_output.txt","r")
             server_output_text = file.read()
@@ -102,7 +85,7 @@ class AdditionalTests(unittest.TestCase):
             self.assertEqual(test_input_text, server_output_text)
 
 
-class ServerPerformaceTests(unittest.TestCase):
+class C_ServerPerformaceTests(unittest.TestCase):
 
     def test_performace(self):
         logging.debug('***STARTED PERFORMACE TEST***')
@@ -111,32 +94,19 @@ class ServerPerformaceTests(unittest.TestCase):
         test_input_text = "Hello"
 
         for _ in range(0,30):
-
             start_time = time.time()
 
-            file2 = open("client_input.txt","w")
-            file2.write(test_input_text)
-            file2.close()
+            BaseTest.write_to_client_input_txt(test_input_text)
 
             file = open("server_output.txt","r")
 
-            server_thread = Server()
-            client_thread = Client()
-
-            server_thread.start()
-            time.sleep(0.0001)
-            client_thread.start()
-
-            client_thread.join()
-            server_thread.join()
-
+            BaseTest.server_and_client_base_code()
             server_output_text = file.read()
             file.close()
 
             self.assertEqual(test_input_text, server_output_text)
 
             end_time = time.time()
-
             result.append(end_time - start_time)
 
         logging.debug('Maximum value of the array is %s', np.max(result))
@@ -146,7 +116,7 @@ class ServerPerformaceTests(unittest.TestCase):
         self.assertLessEqual(np.max(result), 0.03)
 
 
-class ConnectionTests(unittest.TestCase):
+class D_ConnectionTests(unittest.TestCase):
 
     def test_client_connection_without_server(self):
         logging.debug('***STARTED CLIENT CONNECTION WITHOUT SERVER TEST***')
@@ -158,15 +128,7 @@ class ConnectionTests(unittest.TestCase):
     def test_successful_connection_to_server(self):
         logging.debug('***STARTED SUCCESSFUL CONNECTION TO SERVER TEST***')
 
-        server_thread = Server()
-        client_thread = Client()
-
-        server_thread.start()
-        time.sleep(0.0001)
-        client_thread.start()
-
-        client_thread.join()
-        server_thread.join()
+        BaseTest.server_and_client_base_code()
 
 
 if __name__ == '__main__':
